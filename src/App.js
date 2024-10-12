@@ -1,24 +1,19 @@
 import logo from './logo.svg';
-import './App.css';
-
+import { Routes,Route,Component } from 'react-router-dom';
+import LoginPage from './Pages/LoginPage/Login';
+import SignupPage from './Pages/SignupPage/SignupPages';
+import Main from './Pages/MainPage/Main';
+import Params from './Pages/setParameters/params';
+import ForcePay from './Pages/component/component';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path='/login' Component={LoginPage}/>
+      <Route path='/signup' Component={SignupPage}/>
+      <Route path='/' Component={Main}/>
+      <Route path='/params' Component={Params}/>
+      <Route path='/forcepaid' Component={ForcePay}/>
+    </Routes>
   );
 }
 

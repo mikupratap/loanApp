@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.params-cont{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.params-main{
+    height: 60%;
+    width: 60%;
+    display: flex;
+    background-color: rgb(206, 206, 206);
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 20px;
+}
+.params-main-heading{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 90%;
+    border-bottom: 2px solid gray;
+
+}
+.params-main-div{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 90%;
+}
+.params-main-buttons{
+    height: 20%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90%;
+}
+.params-main-div-first{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.params-main-div-first-up{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    float: left;
+    padding-left: 10px;
+    font-size: 90%;
+    font-weight: bolder;
+}
+.params-main-div-first-dwn{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    float: left;
+    padding-left: 10px;
+    font-size: 90%;
+}
+.params-main-div-first-dwn input{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    float: left;
+    border-radius: 20px;
+    border: none;
+    font-size: 90%;
+    padding-left: 20px;
+}
+
+.params-main-buttons-cancle{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.params-main-buttons-submit{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.params-main-buttons-cancle button{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+}
+.params-main-buttons-submit button{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    color: white;
+    background-color:rgb(5, 149, 5);
+    border-radius: 20px;
+    
+}
