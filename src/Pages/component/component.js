@@ -56,7 +56,7 @@ const ForcePay=()=>{
                 </div>
                 <div className="force-close-main-body-item">
                     <div className="force-close-main-body-item-left">Total payble</div>
-                    <div className="force-close-main-body-item-right">{obj.totalamt+obj.interest+Math.round((obj.totalamt*dateDiffInDays(new Date(),new Date(obj?.lastDate))*obj.rate)/1000)}</div>
+                    <div className="force-close-main-body-item-right">{Number.parseInt(obj.totalamt)+Number.parseInt(obj.interest)+Math.round((obj.totalamt*dateDiffInDays(new Date(),new Date(obj?.lastDate))*obj.rate)/100)}</div>
                 </div>
             </div>
             <div className="force-close-main-foot">

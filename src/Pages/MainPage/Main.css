@@ -41,6 +41,7 @@
     height: 100%;
     width: 20%;
     display: flex;
+    margin: auto;
     flex-wrap: wrap;
 }
 .log-out button{
@@ -51,6 +52,7 @@
     color: white;
     background-color: red;
     border: none;
+    margin: auto;
     font-size: large;
     font-weight: bolder;
     justify-content: center;
@@ -58,8 +60,8 @@
     border-radius: 10px;
 }
 
-.main-heading h2{
-   margin-left: 20%;
+.main-heading h3{
+   margin:auto
 }
 
 .main-description{
@@ -194,27 +196,28 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .main-record-history{
     height:10%;
     width: 100%;
     color:black;
     font-weight: bold;
+    display: flex;
     margin:auto;
-    padding-left: 33%;
-    padding: auto;
     justify-content: center;
     align-items: center;
     font-size: 80%;
 }
 
 .main-record-history h3{
-    height:10%;
+    height:90%;
     width: 100%;
     color:black;
     font-weight: bold;
+    display: flex;
     margin:auto;
-    padding: auto;
     justify-content: center;
     align-items: center;
     font-size: 80%;
@@ -229,7 +232,7 @@
 }
 .main-records-item{
     height: 80px;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;

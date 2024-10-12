@@ -5,6 +5,7 @@ import SignupPage from './Pages/SignupPage/SignupPages';
 import Main from './Pages/MainPage/Main';
 import Params from './Pages/setParameters/params';
 import ForcePay from './Pages/component/component';
+import Option from './Pages/option/Option';
 function App() {
   return (
     <Routes>
@@ -13,6 +14,7 @@ function App() {
       <Route path='/' Component={Main}/>
       <Route path='/params' Component={Params}/>
       <Route path='/forcepaid' Component={ForcePay}/>
+      <Route path='/options' Component={Option}/>
     </Routes>
   );
 }

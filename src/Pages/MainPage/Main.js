@@ -24,10 +24,11 @@ const Main=()=>{
             navigate("/");
             return
         }
+        if(thisObject?.totalamt!=0)
         setThisObject(obj);
     },[thisObject])
     const handleLogOut=()=>{
-        navigate('/login');
+        navigate('/options');
         return
     }
     const handleCalculate=(e)=>{
@@ -80,12 +81,12 @@ const Main=()=>{
                     Logo
                 </div>
                 <div className="main-heading">
-                    <h2>Vishal Jwellars</h2>
+                    <h3>Vishal Jwellars</h3>
                 </div>
                 <div className="log-out">
                     <button onClick={()=>{
                         handleLogOut();
-                    }}>Log Out</button>
+                    }}>More</button>
                 </div>
             </div>
             <div className="main-description">
